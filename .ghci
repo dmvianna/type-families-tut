@@ -1,0 +1,7 @@
+:set -XFlexibleContexts
+:set -XTypeFamilies
+
+import Control.Concurrent.STM
+import Control.Concurrent.MVar
+import Data.Foldable (forM_)
+import Data.IORef

@@ -1,0 +1,17 @@
+name: type-families-tut
+version: '0.1.0.0'
+category: Web
+author: Daniel Vianna
+maintainer: dmlvianna <at> gmail <dot> com
+copyright: MIT
+license: BSD3
+homepage: https://github.com/dmvianna/type-families-tut#readme
+extra-source-files:
+- README.md
+dependencies:
+- base >=4.7 && <5
+- stm
+executables:
+  type-families-tut:
+    main: Main.hs
+    source-dirs: src
